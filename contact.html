@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Melron Plumbing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        fustat: ['Fustat', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Navbar -->
+    <div class="fixed top-[30px] left-1/2 -translate-x-1/2 z-50 w-full max-w-4xl px-4">
+        <nav class="flex items-center justify-between px-6 py-4 backdrop-blur-[50px] bg-white/30 rounded-[16px] border border-black/10 shadow-[inset_0_4px_4px_0_rgba(255,255,255,0.25)]">
+            <a href="index.html" class="font-fustat font-bold text-2xl text-gray-900 tracking-tight">Melron</a>
+            <div class="hidden md:flex items-center gap-8 font-inter font-medium text-sm text-gray-800">
+                <a href="index.html" class="hover:text-black transition-colors">Home</a>
+                <a href="services.html" class="hover:text-black transition-colors">Services</a>
+                <a href="about.html" class="hover:text-black transition-colors">About</a>
+                <a href="contact.html" class="hover:text-black transition-colors">Contact</a>
+            </div>
+            <a href="contact.html" class="flex items-center gap-2 px-5 py-2.5 bg-white/40 hover:bg-white/60 transition-colors backdrop-blur-md rounded-full font-inter font-medium text-sm text-gray-900 border border-white/50 shadow-sm">
+                Book Now
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Page Header -->
+    <main class="min-h-screen pt-32">
+        <div class="container mx-auto px-6 py-20">
+            <h1 class="font-fustat text-5xl font-bold mb-8">Contact Us</h1>
+            <p class="font-inter text-gray-600 max-w-2xl text-lg mb-12">
+                Get in touch with us for a free estimate or emergency repairs.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-2">
+                    <a href="index.html" class="font-fustat font-bold text-3xl mb-4 block">Melron</a>
+                    <p class="font-inter text-gray-400 max-w-sm">
+                        Contact Melron Industries, Inc. for repairs and installation today! We look forward to hearing from you and working with you on your next project.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-fustat font-bold text-lg mb-4">Quick Links</h4>
+                    <div class="flex flex-col gap-2 font-inter text-gray-400">
+                        <a href="index.html" class="hover:text-white transition-colors">Home</a>
+                        <a href="services.html" class="hover:text-white transition-colors">Services</a>
+                        <a href="about.html" class="hover:text-white transition-colors">About Us</a>
+                        <a href="contact.html" class="hover:text-white transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-fustat font-bold text-lg mb-4">Contact</h4>
+                    <div class="flex flex-col gap-2 font-inter text-gray-400">
+                        <p>118 N. 7th St. Akron, PA 17501</p>
+                        <p>717-859-2271</p>
+                        <p>melron@dejazzd.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between font-inter text-sm text-gray-500">
+                <p>© 2024 Melron Industries Inc. All rights reserved.</p>
+                <div class="flex gap-4 mt-4 md:mt-0">
+                    <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="terms.html" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

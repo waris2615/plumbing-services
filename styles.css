@@ -1,0 +1,16 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@400;500;700&family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-fustat {
+  font-family: 'Fustat', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
